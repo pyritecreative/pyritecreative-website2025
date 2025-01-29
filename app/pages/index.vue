@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Footer from "~/components/Footer.vue";
+
 const { data: home } = await useAsyncData(() =>
   queryCollection("content").path("/").first()
 );
@@ -46,8 +48,17 @@ useSeoMeta({
 
   <ContentRenderer v-if="home" :value="home" />
   <div v-else>Home not found</div>
-</template>
 
+  <Footer></Footer>
+</template>
+<style>
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+</style>
 <style scoped>
 /*
 https://stackoverflow.com/questions/42858199/vimeo-full-width
@@ -57,7 +68,7 @@ https://stackoverflow.com/questions/42858199/vimeo-full-width
   overflow: hidden;
   width: 100%;
   max-height: 80vh;
-  border-width: 4px 0;
+  border-width: 2px 0;
   border-color: #c8951a;
 }
 

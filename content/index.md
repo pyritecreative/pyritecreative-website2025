@@ -1,4 +1,4 @@
-# Welcome to Nuxt Content startersss
+# Crafting Spectacular Designs - Pyrite Creative
 
 ## Manage your contents
 
