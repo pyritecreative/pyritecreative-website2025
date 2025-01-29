@@ -15,8 +15,10 @@ You can find an example of querying contents and rendering them in `app/pages/[.
 
 :div{style="margin: 2rem 0"}
 
-::div{style="background: orange; font-size: 1.5rem; padding: 10px 20px;"}
-Checkout [official docs][docs] to read more about Nuxt Content
+::div{style="background: #c8951a; font-size: 1.5rem; padding: 10px 20px;"}
+Pyrite Creative
+(01453)605006
+hello@pyritecreative.com
 ::
 
 [docs]: https://content.nuxt.com

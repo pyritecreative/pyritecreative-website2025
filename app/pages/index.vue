@@ -25,16 +25,18 @@ useSeoMeta({
       <div
         class="relative z-10 flex flex-col items-center justify-center h-full text-center p-8"
       >
-        <h1 class="text-5xl font-bold text-white">Crafting Spectacular Designs</h1>
+        <h1 class="text-5xl font-bold text-white">
+          Crafting Spectacular Designs
+        </h1>
         <p class="mt-4 text-lg text-gray-200">
-          Welcome to Pyrite Creative, where artistry meets innovation. Our team
-          is dedicated to bringing your vision to life through exceptional set
-          design, captivating scenery, and custom props. From concept to
-          creation, we specialise in deliverg top-tier services that exceed your
-          expectations.
+          Welcome to Pyrite Creative, where artistry meets innovation. Our
+          multi-disciplinary team is dedicated to bringing your vision to life
+          through exceptional set design, captivating scenery, and custom props.
+          From concept to creation, we specialise in delivering premium services
+          that exceed your expectations.
         </p>
         <button
-          class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          class="mt-4 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
         >
           Learn More
         </button>
@@ -52,9 +54,11 @@ https://stackoverflow.com/questions/42858199/vimeo-full-width
 */
 .embed-viewport {
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
   width: 100%;
   max-height: 80vh;
+  border-width: 4px 0;
+  border-color: #c8951a;
 }
 
 .embed-container {
@@ -62,9 +66,7 @@ https://stackoverflow.com/questions/42858199/vimeo-full-width
   --video--height: 1080;
 
   position: relative;
-  padding-bottom: calc(
-    var(--video--height) / var(--video--width) * 100%
-  ); 
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
   overflow: hidden;
   max-width: 100%;
   background: black;
