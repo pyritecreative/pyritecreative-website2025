@@ -4,7 +4,6 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "nuxt-time",
-    "@nuxthq/studio",
   ],
   devtools: { enabled: true },
   future: {
