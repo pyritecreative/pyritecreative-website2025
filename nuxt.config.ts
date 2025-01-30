@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "nuxt-time"],
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/tailwindcss",
+    "nuxt-time",
+    "@nuxthq/studio",
+  ],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
@@ -16,8 +21,8 @@ export default defineNuxtConfig({
   },
   content: {
     preview: {
-      api: 'https://api.nuxt.studio'
-    }
+      api: "https://api.nuxt.studio",
+    },
   },
   // https://nuxt.com/docs/getting-started/styling
   // app: {
