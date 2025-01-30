@@ -14,4 +14,28 @@ export default defineNuxtConfig({
       apiBase: "/api",
     },
   },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+  // https://nuxt.com/docs/getting-started/styling
+  // app: {
+  //   head: {
+  //     link: [
+  //       {
+  //         rel: "stylesheet",
+  //         href: "https://fonts.googleapis.com/css?family=Open+Sans",
+  //       },
+  //       {
+  //         rel: "stylesheet",
+  //         href: "https://fonts.googleapis.com/css?family=Hind",
+  //       },
+  //       {
+  //         rel: "stylesheet",
+  //         href: "https://fonts.googleapis.com/css?family=Montserrat",
+  //       },
+  //     ],
+  //   },
+  // },
 });
