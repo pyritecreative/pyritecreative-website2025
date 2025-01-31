@@ -7,10 +7,12 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
   ],
   devtools: { enabled: true },
-  // future: {
-  //   compatibilityVersion: 4,
-  // },
-  // compatibilityDate: "2024-04-03",
+
+  compatibilityDate: "2025-01-30",
+  future: {
+    compatibilityVersion: 4,
+  },
+
   // runtimeConfig: {
   //   // The private keys which are only available server-side
   //   apiSecret: "123",
@@ -43,4 +45,5 @@ export default defineNuxtConfig({
   //     ],
   //   },
   // },
+
 });
