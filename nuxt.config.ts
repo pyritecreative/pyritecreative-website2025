@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     // "@nuxthq/studio",
   ],
   devtools: { enabled: true },
+  ssr: false,
 
   compatibilityDate: "2025-01-30",
   future: {
