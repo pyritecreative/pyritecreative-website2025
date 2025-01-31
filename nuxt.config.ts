@@ -21,11 +21,16 @@ export default defineNuxtConfig({
   //     apiBase: "/api",
   //   },
   // },
-  // content: {
-  //   preview: {
-  //     api: "https://api.nuxt.studio",
-  //   },
-  // },
+  content: {
+    preview: {
+      api: "https://api.nuxt.studio",
+      gitInfo: {
+        name: 'pyritecreative-website2025',
+        owner: 'pyritecreative',
+        url: 'https://github.com/pyritecreative/pyritecreative-website2025'
+      }
+    },
+  },
   // https://nuxt.com/docs/getting-started/styling
   // app: {
   //   head: {
