@@ -7,7 +7,10 @@ export default defineNuxtConfig({
     // "@nuxthq/studio",
   ],
   devtools: { enabled: true },
-  ssr: false,
+  ssr: true,
+  app: {
+    baseURL: '/'
+  },
 
   compatibilityDate: "2025-01-30",
   future: {
