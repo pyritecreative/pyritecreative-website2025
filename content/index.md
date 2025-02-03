@@ -1,4 +1,4 @@
-# Crafting Spectacular Designs - Pyrite Creative
+# Welcome to Nuxt Content startersss
 
 ## Manage your contents
 
@@ -13,12 +13,9 @@ You can find an example of querying contents and rendering them in `app/pages/[.
 ::counter
 ::
 
-:div{style="margin: 2rem 0"}
-
-::div{style="background: #c8951a; font-size: 1.5rem; padding: 10px 20px;"}
-Pyrite Creative
-(01453)605006
-hello@pyritecreative.com
+::div{style="margin: 2rem 0"}
 ::
 
-[docs]: https://content.nuxt.com
+::div{style="background: #c8951a; font-size: 1.5rem; padding: 10px 20px;"}
+Pyrite Creative (01453)605006 <hello@pyritecreative.com>
+::
