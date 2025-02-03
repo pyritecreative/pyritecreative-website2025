@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     // "@nuxthq/studio",
   ],
   devtools: { enabled: true },
-  // ssr: false,
+  ssr: true,
 
   compatibilityDate: "2025-01-30",
   future: {
@@ -25,11 +25,11 @@ export default defineNuxtConfig({
   content: {
     preview: {
       api: "https://api.nuxt.studio",
-      // gitInfo: {
-      //   name: 'pyritecreative-website2025',
-      //   owner: 'pyritecreative',
-      //   url: 'https://github.com/pyritecreative/pyritecreative-website2025'
-      // }
+      gitInfo: {
+        name: 'pyritecreative-website2025',
+        owner: 'pyritecreative',
+        url: 'https://github.com/pyritecreative/pyritecreative-website2025'
+      }
     },
   },
   // https://nuxt.com/docs/getting-started/styling
