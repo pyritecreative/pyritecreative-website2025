@@ -1,4 +1,4 @@
-# Welcome to Nuxt Content startersss
+# Welcome to Nuxt Content hello bz
 
 ## Manage your contents
 
