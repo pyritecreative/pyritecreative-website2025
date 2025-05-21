@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: default
 ---
 
 # About Content v2

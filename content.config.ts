@@ -6,7 +6,7 @@ export default defineContentConfig({
       type: 'page',
       source: '**',
       schema: z.object({
-        layout: z.enum(['default', 'custom']),
+        layout: z.enum(['default', 'hero', 'gallery']),
       })
     }),
   },

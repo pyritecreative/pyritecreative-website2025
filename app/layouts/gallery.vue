@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h1>DEFAULT LAYOUT</h1>
+    <h1>GALLERY LAYOUT</h1>
     <slot />
   </div>
 </template>

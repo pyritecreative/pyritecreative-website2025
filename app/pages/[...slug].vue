@@ -19,9 +19,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div>
-    <NuxtLayout v-if="page" :name="page.layout">
+    <NuxtLayout v-if="page" :name="page.layout ?? 'default'">
       <ContentRenderer v-if="page" :value="page" />
     </NuxtLayout>
-  </div>
 </template>
