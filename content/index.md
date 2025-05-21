@@ -2,7 +2,6 @@
 layout: hero
 ---
 
-
 # Welcome to Nuxt Content hello bz
 
 ## Manage your contents
