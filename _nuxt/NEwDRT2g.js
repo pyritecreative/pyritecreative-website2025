@@ -1,0 +1,1 @@
+import{l as t,k as o,f as a,g as r,$ as l}from"./B3U_0f7G.js";const n={};function c(s,e){return o(),a("div",null,[e[0]||(e[0]=r("p",null,"CUSTOM layout content shared across all pages",-1)),l(s.$slots,"default")])}const f=t(n,[["render",c]]);export{f as default};
