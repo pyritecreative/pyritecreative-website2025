@@ -1,0 +1,1 @@
+import{l,k as s,f as t,g as n,V as o}from"./Vd8TnWxD.js";const a={};function c(r,e){return s(),t("div",null,[e[0]||(e[0]=n("h1",null,"GALLERY LAYOUT",-1)),o(r.$slots,"default")])}const d=l(a,[["render",c]]);export{d as default};

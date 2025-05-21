@@ -1,1 +1,0 @@
-import{l as r,k as s,f as l,g as n,V as o}from"./Df9KT4Xh.js";const a={};function f(t,e){return s(),l("div",null,[e[0]||(e[0]=n("h1",null,"DEFAULT LAYOUT",-1)),o(t.$slots,"default")])}const d=r(a,[["render",f]]);export{d as default};
