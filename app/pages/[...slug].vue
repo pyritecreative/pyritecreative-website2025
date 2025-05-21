@@ -1,18 +1,27 @@
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute();
 
-const { data: page } = await useAsyncData('page-' + route.path, () => {
-  return queryCollection('content').path(route.path).first()
-})
+const { data: page } = await useAsyncData("page-" + route.path, () => {
+  return queryCollection("content").path(route.path).first();
+});
 
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page not found",
+    fatal: true,
+  });
 }
+
+definePageMeta({
+  layout: false,
+});
 </script>
 
 <template>
-  <ContentRenderer
-    v-if="page"
-    :value="page"
-  />
+  <div>
+    <NuxtLayout v-if="page" :name="page.layout">
+      <ContentRenderer v-if="page" :value="page" />
+    </NuxtLayout>
+  </div>
 </template>
