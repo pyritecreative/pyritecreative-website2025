@@ -1,11 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/tailwindcss",
-    "nuxt-time",
-    // "@nuxthq/studio",
-  ],
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", // "@nuxthq/studio",
+  "nuxt-time", "@nuxt/image"],
   devtools: { enabled: true },
   ssr: true,
 
