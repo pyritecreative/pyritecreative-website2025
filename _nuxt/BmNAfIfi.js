@@ -1,1 +1,0 @@
-import{_ as s,f as t,k as l,i as n,S as o}from"./uv84Of0b.js";const a={};function c(r,e){return l(),t("div",null,[e[0]||(e[0]=n("h1",null,"GALLERY LAYOUT",-1)),o(r.$slots,"default")])}const d=s(a,[["render",c]]);export{d as default};

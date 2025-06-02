@@ -1,0 +1,1 @@
+import{_ as r,d as s,i as n,g as o,S as a}from"./BiAH7DP4.js";const l={};function d(t,e){return n(),s("div",null,[e[0]||(e[0]=o("h1",null,"DEFAULT LAYOUT",-1)),a(t.$slots,"default")])}const f=r(l,[["render",d]]);export{f as default};
