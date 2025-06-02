@@ -25,24 +25,25 @@
     <NuxtPage />
   </main>
   <footer>
-    <div class="bg-zinc-700 text-zinc-400 p-4 relative">
+    <h2 class="content w-full text-2xl text-zinc-200 bg-zinc-800">Get In Touch</h2>
 
-      <div class="bg-[url(/phone-white.png)] bg-contain p-50 absolute w-[250px] h-[450px] right-[20px] top-[-50px]">
+    <div class="content bg-zinc-700 text-zinc-400 relative">
+      <div
+        class="bg-[url(/phone-white.png)] bg-contain p-50 absolute w-[200px] h-[400px] right-[4vw] bottom-[-10px]"
+      >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2391.2104783968744!2d-2.1967442236529067!3d51.7208082950912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48713dcaaa708069%3A0xa55057dc31593154!2sPyrite%20Creative%20Ltd!5e1!3m2!1sen!2suk!4v1738153138634!5m2!1sen!2suk"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          width="250"
-          height="300"
-          class="absolute top-[57px] right-0"
+          width="165"
+          height="290"
+          class="absolute top-[55px] left-[18px]"
         ></iframe>
       </div>
 
-
-      <h2 class="w-full text-2xl">Get In Touch</h2>
       <dl>
-        <dt>Telephone</dt> 
+        <dt><Icon name="ion:ios-telephone" />Telephone </dt>
         <dd><a href="tel:+441453605006" target="_blank">(01453) 605006</a></dd>
         <dt>Email</dt>
         <dd>
@@ -56,7 +57,7 @@
         <dt>Address</dt>
         <dd>
           <address>
-            Pyrite Creative Ltd<br />
+            Pyrite Creative<br />
             West Bay<br />
             Lakeside Depot<br />
             London Road<br />
@@ -65,13 +66,11 @@
           </address>
         </dd>
       </dl>
-
-     
     </div>
-    <div class="bg-zinc-900 text-zinc-500 p-4 flex items-stretch">
+    <div class="content text-zinc-800 flex items-stretch">
       <div class="flex-1">
         <NuxtImg
-          src="/pyrite-creative-logo-white.png"
+          src="/pyrite-creative-logo-black.png"
           alt="Pyrite Creative Logo"
           width="70"
         />
@@ -90,6 +89,9 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+.content {
+  padding: 30px 4vw;
 }
 </style>
 

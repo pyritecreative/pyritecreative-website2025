@@ -20,12 +20,12 @@
           <h1 class="text-5xl font-bold text-white">
             Crafting Spectacular Designs
           </h1>
-          <p class="mt-4 text-lg text-gray-200">
+          <p class="content mt-4 text-lg text-gray-200">
             Welcome to Pyrite Creative, where artistry meets innovation. Our
             multi-disciplinary team is dedicated to bringing your vision to life
-            through exceptional set design, captivating scenery, and custom
-            props. From concept to creation, we specialise in delivering premium
-            services that exceed your expectations.
+            through exceptional set design, captivating scenery, custom props
+            and bespoke sculpture. From concept to creation, we specialise in
+            delivering bespoke premium services that exceed your expectations.
           </p>
           <button
             class="mt-4 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
@@ -35,18 +35,13 @@
         </div>
       </div>
     </div>
-    <slot />
+    <div class="content">
+      <slot />
+    </div>
   </div>
 </template>
 
-<style>
-h1,
-h2,
-h3 {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-}
-</style>
+<style></style>
 
 <style scoped>
 /*
