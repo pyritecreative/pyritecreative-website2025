@@ -25,7 +25,7 @@
             multi-disciplinary team is dedicated to bringing your vision to life
             through exceptional set design, captivating scenery, custom props
             and bespoke sculpture. From concept to creation, we specialise in
-            delivering bespoke premium services that exceed your expectations.
+            delivering unique premium services that exceed your expectations.
           </p>
           <button
             class="mt-4 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
