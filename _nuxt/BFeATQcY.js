@@ -1,1 +1,0 @@
-import{_ as s,d as t,i as l,g as n,S as o}from"./BiAH7DP4.js";const a={};function c(r,e){return l(),t("div",null,[e[0]||(e[0]=n("h1",null,"GALLERY LAYOUT",-1)),o(r.$slots,"default")])}const f=s(a,[["render",c]]);export{f as default};
